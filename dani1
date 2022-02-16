@@ -1,17 +1,9 @@
-package oop.exercises.InputOutput;
-
-import oop.exercises.Exercise;
-
-import java.util.Scanner;
-
 /**
  * Завдання No1. Гіпотенуза
  * Дано два числа a та b. Знайдіть гіпотенузу трикутника із заданими катетами.
  */
-public class InputOutputExercise1 implements Exercise {
-    @Override
-    public void execute() {
-        Scanner sc = new Scanner(System.in);
+public class dani {
+               Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -23,4 +15,3 @@ public class InputOutputExercise1 implements Exercise {
 
         System.out.println("Hypotenuse: " + Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
     }
-}
